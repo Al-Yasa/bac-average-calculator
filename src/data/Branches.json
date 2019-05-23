@@ -1,0 +1,72 @@
+{
+    "math": {
+        "subject_01": { "name": "رياضيات", "coefficient": 7 },
+        "subject_02": { "name": "علوم فيزيائية", "coefficient": 6 },
+        "subject_03": { "name": "لغة عربية", "coefficient": 3 },
+        "subject_04": { "name": "علوم طبيعية", "coefficient": 2 },
+        "subject_05": { "name": "علوم إسلامية", "coefficient": 2 },
+        "subject_06": { "name": "تاريخ و جغرافيا", "coefficient": 2 },
+        "subject_07": { "name": "لغة إنجليزية", "coefficient": 2 },
+        "subject_08": { "name": "فلسفة", "coefficient": 2 },
+        "subject_09": { "name": "لغة فرنسية", "coefficient": 2 },
+        "subject_10": { "name": "تربية بدنية", "coefficient": 1 }
+    },
+    "science": {
+        "subject_01": { "name": "علوم طبيعية", "coefficient": 6 },
+        "subject_02": { "name": "رياضيات", "coefficient": 5 },
+        "subject_03": { "name": "علوم فيزيائية", "coefficient": 5 },
+        "subject_04": { "name": "لغة عربية", "coefficient": 3 },
+        "subject_05": { "name": "علوم إسلامية", "coefficient": 2 },
+        "subject_06": { "name": "تاريخ و جغرافيا", "coefficient": 2 },
+        "subject_07": { "name": "لغة إنجليزية", "coefficient": 2 },
+        "subject_08": { "name": "فلسفة", "coefficient": 2 },
+        "subject_09": { "name": "لغة فرنسية", "coefficient": 2 },
+        "subject_10": { "name": "تربية بدنية", "coefficient": 1 }
+    },
+    "literature": {
+        "subject_01": { "name": "لغة عربية", "coefficient": 6 },
+        "subject_02": { "name": "فلسفة", "coefficient": 6 },
+        "subject_03": { "name": "تاريخ و جغرافيا", "coefficient": 4 },
+        "subject_04": { "name": "لغة إنجليزية", "coefficient": 3 },
+        "subject_05": { "name": "رياضيات", "coefficient": 2 },
+        "subject_06": { "name": "علوم إسلامية", "coefficient": 2 },
+        "subject_07": { "name": "لغة فرنسية", "coefficient": 3 },
+        "subject_08": { "name": "تربية بدنية", "coefficient": 1 }
+    },
+    "languages": {
+        "subject_01": { "name": "لغة عربية", "coefficient": 5 },
+        "subject_02": { "name": "لغة فرنسية", "coefficient": 5 },
+        "subject_03": { "name": "لغة إنجليزية", "coefficient": 5 },
+        "subject_04": { "name": "لغة أجنبية ثالثة", "coefficient": 4 },
+        "subject_05": { "name": "رياضيات", "coefficient": 2 },
+        "subject_06": { "name": "علوم إسلامية", "coefficient": 2 },
+        "subject_07": { "name": "تاريخ و جغرافيا", "coefficient": 2 },
+        "subject_08": { "name": "فلسفة", "coefficient": 2 },
+        "subject_09": { "name": "تربية بدنية", "coefficient": 1 }
+    },
+    "management": {
+        "subject_01": { "name": "تسيير محاسبي و مالي", "coefficient": 6 },
+        "subject_02": { "name": "الإقتصاد و المناجمنت", "coefficient": 5 },
+        "subject_03": { "name": "رياضيات", "coefficient": 5 },
+        "subject_04": { "name": "تاريخ و جغرافيا", "coefficient": 4 },
+        "subject_05": { "name": "لغة عربية", "coefficient": 3 },
+        "subject_06": { "name": "علوم إسلامية", "coefficient": 2 },
+        "subject_07": { "name": "لغة إنجليزية", "coefficient": 2 },
+        "subject_08": { "name": "فلسفة", "coefficient": 2 },
+        "subject_09": { "name": "لغة فرنسية", "coefficient": 2 },
+        "subject_10": { "name": "قانون", "coefficient": 2 },
+        "subject_11": { "name": "تربية بدنية", "coefficient": 1 }
+    },
+    "tech": {
+        "subject_01": { "name": "تكنولوجيا", "coefficient": 7 },
+        "subject_02": { "name": "رياضيات", "coefficient": 6 },
+        "subject_03": { "name": "علوم فيزيائية", "coefficient": 6 },
+        "subject_04": { "name": "لغة عربية", "coefficient": 3 },
+        "subject_05": { "name": "علوم إسلامية", "coefficient": 2 },
+        "subject_06": { "name": "تاريخ و جغرافيا", "coefficient": 2 },
+        "subject_07": { "name": "لغة إنجليزية", "coefficient": 2 },
+        "subject_08": { "name": "فلسفة", "coefficient": 2 },
+        "subject_09": { "name": "لغة فرنسية", "coefficient": 2 },
+        "subject_10": { "name": "تربية بدنية", "coefficient": 1 }
+    }
+}

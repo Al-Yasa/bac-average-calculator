@@ -1,0 +1,38 @@
+h3
+    font-size: 1rem
+    text-align: center
+
+.table
+    // text-align: center
+    outline: 1px solid red
+    display: flex
+    flex-direction: column
+    .row
+        outline: 1px solid blue
+        display: flex
+        flex-wrap: wrap
+        flex-basis: 100%
+        flex-flow: row-reverse
+        &.row-head
+            background-color: olive
+            color: #fff
+            // &.row-head .col
+            //     font-size: 0.8rem;
+        .col
+            height: 50px
+            // padding: 5px
+            font-size: 0.80rem
+            flex-wrap: wrap
+            flex-basis: 20%
+            display: flex
+            justify-content: center
+            align-items: center
+            outline: 1px solid green
+            &:first-of-type
+                background-color: olive
+                color: #fff
+                flex-basis: 40%
+            input
+                height: 100%
+                width: 100%
+                text-align: center
