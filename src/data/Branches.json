@@ -8,8 +8,7 @@
         { "name": "تاريخ و جغرافيا", "coefficient": 2 },
         { "name": "لغة إنجليزية", "coefficient": 2 },
         { "name": "فلسفة", "coefficient": 2 },
-        { "name": "لغة فرنسية", "coefficient": 2 },
-        { "name": "تربية بدنية", "coefficient": 1 }
+        { "name": "لغة فرنسية", "coefficient": 2 }
     ],
     "science": [
         { "name": "علوم طبيعية", "coefficient": 6 },
@@ -20,8 +19,7 @@
         { "name": "تاريخ و جغرافيا", "coefficient": 2 },
         { "name": "لغة إنجليزية", "coefficient": 2 },
         { "name": "فلسفة", "coefficient": 2 },
-        { "name": "لغة فرنسية", "coefficient": 2 },
-        { "name": "تربية بدنية", "coefficient": 1 }
+        { "name": "لغة فرنسية", "coefficient": 2 }
     ],
     "literature": [
         { "name": "لغة عربية", "coefficient": 6 },
@@ -30,8 +28,7 @@
         { "name": "لغة إنجليزية", "coefficient": 3 },
         { "name": "رياضيات", "coefficient": 2 },
         { "name": "علوم إسلامية", "coefficient": 2 },
-        { "name": "لغة فرنسية", "coefficient": 3 },
-        { "name": "تربية بدنية", "coefficient": 1 }
+        { "name": "لغة فرنسية", "coefficient": 3 }
     ],
     "languages": [
         { "name": "لغة عربية", "coefficient": 5 },
@@ -41,8 +38,7 @@
         { "name": "رياضيات", "coefficient": 2 },
         { "name": "علوم إسلامية", "coefficient": 2 },
         { "name": "تاريخ و جغرافيا", "coefficient": 2 },
-        { "name": "فلسفة", "coefficient": 2 },
-        { "name": "تربية بدنية", "coefficient": 1 }
+        { "name": "فلسفة", "coefficient": 2 }
     ],
     "management": [
         { "name": "تسيير محاسبي و مالي", "coefficient": 6 },
@@ -54,8 +50,7 @@
         { "name": "لغة إنجليزية", "coefficient": 2 },
         { "name": "فلسفة", "coefficient": 2 },
         { "name": "لغة فرنسية", "coefficient": 2 },
-        { "name": "قانون", "coefficient": 2 },
-        { "name": "تربية بدنية", "coefficient": 1 }
+        { "name": "قانون", "coefficient": 2 }
     ],
     "tech": [
         { "name": "تكنولوجيا", "coefficient": 7 },
@@ -66,7 +61,6 @@
         { "name": "تاريخ و جغرافيا", "coefficient": 2 },
         { "name": "لغة إنجليزية", "coefficient": 2 },
         { "name": "فلسفة", "coefficient": 2 },
-        { "name": "لغة فرنسية", "coefficient": 2 },
-        { "name": "تربية بدنية", "coefficient": 1 }
+        { "name": "لغة فرنسية", "coefficient": 2 }
     ]
 }

@@ -1,21 +1,22 @@
 h3
     font-size: 1rem
     text-align: center
+    color: #fff
 
 .table
     // text-align: center
-    outline: 1px solid red
     display: flex
     flex-direction: column
     .row
-        outline: 1px solid blue
         display: flex
         flex-wrap: wrap
         flex-basis: 100%
         flex-flow: row-reverse
         &.row-head
-            background-color: olive
-            color: #fff
+            // border: 1px solid #00c24d
+            background-color: #fff
+            color: #00c24d
+            font-weight: bold
             &.row-head .col
                 font-size: 0.85rem;
         &.row-result
@@ -32,12 +33,35 @@ h3
             display: flex
             justify-content: center
             align-items: center
-            outline: 1px solid green
             &:first-of-type
-                background-color: olive
-                color: #fff
+                // border: 1px solid #00c24d
+                // background-color: #fff
+                color: #00c24d
+                font-weight: bold
                 flex-basis: 40%
+            &.input
+                // background: red
+                position: relative
+            .validity
+                width: 0;
+                height: 0;
+                position: absolute
+                top: 10%
+                right: 10%
             input
-                height: 100%
-                width: 100%
+                height: 80%
+                width: 80%
                 text-align: center
+                outline: none
+            &.input.valid
+                .validity
+                    border-left: 15px solid transparent
+                    border-top: 15px solid #00c24d
+                input
+                    border: 1px solid #00c24d
+            &.input.invalid
+                .validity
+                    border-left: 15px solid transparent
+                    border-top: 15px solid #f04647
+                input
+                    border: 1px solid #f04647

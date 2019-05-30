@@ -1,31 +1,67 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import { FaSquareRootAlt, FaFlask, FaBook, FaLanguage, FaBusinessTime, FaMicrochip } from 'react-icons/fa';
 
 class MainPage extends Component {
+  componentDidMount() {
+    document.getElementById('sport').checked = this.props.optionalSubjects.sport;
+    document.getElementById('amazigh').checked = this.props.optionalSubjects.amazigh;
+  }
+
+  handleChange = (e) => {
+    const CHECKBOX_NAME = e.target.name;
+    const CHECKBOX_VALUE = e.target.checked;
+    this.props.onChangeSubjects(CHECKBOX_NAME, CHECKBOX_VALUE);
+  }
+
   render() {
     return (
-      <>
+      <div id="mainPage">
+        <div className="optionalSubjects">
+          <div className="inputGroup">
+            <input id="amazigh" name="amazigh" type="checkbox" onChange={this.handleChange} />
+            <label htmlFor="amazigh">هل أنت معني باللغة الأمازيغية؟</label>
+          </div>
+          <div className="inputGroup">
+            <input id="sport" name="sport" type="checkbox" onChange={this.handleChange} />
+            <label htmlFor="sport">هل أنت معني بالرياضة البدنية؟</label>
+          </div>
+        </div>
         <ul className="branches">
           <li className="branch">
-            <img src="#"  alt="empty" />
-            <Link to="/math">Math</Link></li>
+            <Link to="/math">
+              <FaSquareRootAlt />
+              <p>رياضيات</p>
+            </Link>
+          </li>
           <li className="branch">
-            <img src="#"  alt="empty" />
-            <Link to="/science">Science</Link></li>
+            <Link to="/science">
+              <FaFlask />
+              <p>علوم تجريبية</p>
+            </Link>
+          </li>
           <li className="branch">
-            <img src="#"  alt="empty" />
-            <Link to="/literature">Literature</Link></li>
+            <Link to="/literature">
+              <FaBook />
+              <p>آداب و فلسفة</p>
+            </Link></li>
           <li className="branch">
-            <img src="#"  alt="empty" />
-            <Link to="/languages">Languages</Link></li>
+            <Link to="/languages">
+              <FaLanguage />
+              <p>لغات أجنبية</p>
+            </Link></li>
           <li className="branch">
-            <img src="#"  alt="empty" />
-            <Link to="/management">Management</Link></li>
+            <Link to="/management">
+              <FaBusinessTime />
+              <p>تسيير و اقتصاد</p>
+            </Link></li>
           <li className="branch">
-            <img src="#"  alt="empty" />
-            <Link to="/tech">Tech</Link></li>
+            <Link to="/tech">
+              <FaMicrochip />
+              <p>تقني رياضي</p>
+            </Link></li>
         </ul>
-      </>
+      </div>
     )
   }
 }
