@@ -8,7 +8,7 @@ class MainPage extends Component {
     document.getElementById('amazigh').checked = this.props.optionalSubjects.amazigh;
   }
 
-  handleChange = (e) => {
+  handleChange = e => {
     const CHECKBOX_NAME = e.target.name;
     const CHECKBOX_VALUE = e.target.checked;
     this.props.onChangeSubjects(CHECKBOX_NAME, CHECKBOX_VALUE);

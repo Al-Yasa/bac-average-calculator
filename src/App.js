@@ -29,7 +29,6 @@ class App extends React.Component {
           )} />
           <h1>حساب الباك</h1>
         </header>
-
         <main>
           <Route exact path="/" render={() => (
             <MainPage optionalSubjects={this.state.optionalSubjects} onChangeSubjects={this.onChangeSubjects} />
@@ -53,10 +52,6 @@ class App extends React.Component {
             <CalcPage branch="tech" optionalSubjects={this.state.optionalSubjects} />
           )} />
         </main>
-
-        <footer>
-          <p>© Footer</p>
-        </footer>
       </div>
     )
   }
