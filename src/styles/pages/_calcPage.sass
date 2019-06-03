@@ -1,67 +1,56 @@
-h3
-    font-size: 1rem
-    text-align: center
-    color: #fff
-
-.table
-    // text-align: center
-    display: flex
-    flex-direction: column
-    .row
+#calcPage
+    .table
         display: flex
-        flex-wrap: wrap
-        flex-basis: 100%
-        flex-flow: row-reverse
-        &.row-head
-            // border: 1px solid #00c24d
-            background-color: #fff
-            color: #00c24d
-            font-weight: bold
-            &.row-head .col
-                font-size: 0.85rem;
-        &.row-result
-            .col:first-of-type
-                flex: 50%
-            // &.row-head .col
-            //     font-size: 0.8rem;
-        .col
-            height: 50px
-            // padding: 5px
-            font-size: 0.80rem
-            flex-wrap: wrap
-            flex-basis: 20%
+        flex-direction: column
+        .row
             display: flex
-            justify-content: center
-            align-items: center
-            &:first-of-type
-                // border: 1px solid #00c24d
-                // background-color: #fff
-                color: #00c24d
+            flex-flow: row-reverse
+            margin: 5px
+            border: 1px solid #eee
+            &.row-head
+                color: $primary-color
                 font-weight: bold
-                flex-basis: 40%
-            &.input
-                // background: red
-                position: relative
-            .validity
-                width: 0;
-                height: 0;
-                position: absolute
-                top: 10%
-                right: 10%
-            input
-                height: 80%
-                width: 80%
-                text-align: center
-                outline: none
-            &.input.valid
+                &.row-head .col
+                    font-size: 0.85rem;
+            &.row-result
+                .col:first-of-type
+                    flex: 50%
+            .col
+                height: 50px
+                font-size: 0.80rem
+                flex-wrap: wrap
+                flex-basis: 20%
+                display: flex
+                justify-content: center
+                align-items: center
+                overflow: hidden
+                &:first-of-type
+                    color: $primary-color
+                    font-weight: bold
+                    flex-basis: 40%
+                &.input
+                    position: relative
                 .validity
-                    border-left: 15px solid transparent
-                    border-top: 15px solid #00c24d
+                    width: 0;
+                    height: 0;
+                    position: absolute
+                    top: 10%
+                    right: 10%
                 input
-                    border: 1px solid #00c24d
-            &.input.invalid
-                .validity
-                    border-left: 15px solid transparent
-                    border-top: 15px solid #f04647
-                input
-                    border: 1px solid #f04647
+                    height: 80%
+                    width: 80%
+                    text-align: center
+                    outline: none
+                    font-size: 0.7rem
+                &.input.valid
+                    .validity
+                        border-left: 15px solid transparent
+                        border-top: 15px solid $primary-color
+                    input
+                        border: 1px solid $primary-color
+                &.input.invalid
+                    .validity
+                        border-left: 15px solid transparent
+                        border-top: 15px solid $secondary-color
+                    input
+                        border: 1px solid $secondary-color

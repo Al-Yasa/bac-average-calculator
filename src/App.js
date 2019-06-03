@@ -14,7 +14,6 @@ class App extends React.Component {
   }
 
   onChangeSubjects = (subjectName, value) => {
-    console.log(subjectName, value);
     this.setState(state => {
       state.optionalSubjects[subjectName] = value;
     });
@@ -22,7 +21,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <header>
           <Route exact path="/:subpath" render={() => (
               <Link to="/"><FaArrowRight /></Link>

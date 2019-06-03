@@ -125,8 +125,7 @@ class CalcPage extends Component {
 
   render() {
     return (
-      <div>
-        {/* <h3>CalcPage: {this.state.branch}</h3> */}
+      <div id="calcPage">
         <div className="table">
           <div className="row row-head">
             <div className="col">المادة</div>
