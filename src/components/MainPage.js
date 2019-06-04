@@ -1,8 +1,14 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { FaSquareRootAlt, FaFlask, FaBook, FaLanguage, FaBusinessTime, FaMicrochip } from 'react-icons/fa';
+import PropTypes from 'prop-types'
 
 class MainPage extends Component {
+  static propTypes = {
+    optionalSubjects: PropTypes.objectOf(PropTypes.bool).isRequired,
+    onChangeSubjects: PropTypes.func.isRequired
+  }
+
   componentDidMount() {
     document.getElementById('sport').checked = this.props.optionalSubjects.sport;
     document.getElementById('amazigh').checked = this.props.optionalSubjects.amazigh;

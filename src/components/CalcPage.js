@@ -1,7 +1,14 @@
 import React, { Component } from 'react'
 import Branches from '../data/Branches.json'
+import PropTypes from 'prop-types'
 
 class CalcPage extends Component {
+  static propTypes = {
+    branch: PropTypes.string.isRequired,
+    branchArabic: PropTypes.string.isRequired,
+    optionalSubjects: PropTypes.objectOf(PropTypes.bool).isRequired
+  }
+
   state = {
     branch: this.props.branch,
     subjects: [],
