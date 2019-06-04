@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/calculate-bac/static/css/main.0ffd45cf.chunk.css",
-    "main.js": "/calculate-bac/static/js/main.a125a32f.chunk.js",
-    "main.js.map": "/calculate-bac/static/js/main.a125a32f.chunk.js.map",
-    "runtime~main.js": "/calculate-bac/static/js/runtime~main.b6091d9c.js",
-    "runtime~main.js.map": "/calculate-bac/static/js/runtime~main.b6091d9c.js.map",
-    "static/js/2.aead6e3e.chunk.js": "/calculate-bac/static/js/2.aead6e3e.chunk.js",
-    "static/js/2.aead6e3e.chunk.js.map": "/calculate-bac/static/js/2.aead6e3e.chunk.js.map",
-    "index.html": "/calculate-bac/index.html",
-    "precache-manifest.695aa7cb8484acfb43ee8bc33f5d8227.js": "/calculate-bac/precache-manifest.695aa7cb8484acfb43ee8bc33f5d8227.js",
-    "service-worker.js": "/calculate-bac/service-worker.js",
-    "static/css/main.0ffd45cf.chunk.css.map": "/calculate-bac/static/css/main.0ffd45cf.chunk.css.map"
+    "main.css": "/bac-average-calculator/static/css/main.0ffd45cf.chunk.css",
+    "main.js": "/bac-average-calculator/static/js/main.b7f28d21.chunk.js",
+    "main.js.map": "/bac-average-calculator/static/js/main.b7f28d21.chunk.js.map",
+    "runtime~main.js": "/bac-average-calculator/static/js/runtime~main.cb6319bd.js",
+    "runtime~main.js.map": "/bac-average-calculator/static/js/runtime~main.cb6319bd.js.map",
+    "static/js/2.aead6e3e.chunk.js": "/bac-average-calculator/static/js/2.aead6e3e.chunk.js",
+    "static/js/2.aead6e3e.chunk.js.map": "/bac-average-calculator/static/js/2.aead6e3e.chunk.js.map",
+    "index.html": "/bac-average-calculator/index.html",
+    "precache-manifest.60a6f406064e62a76f4ac393b87feee8.js": "/bac-average-calculator/precache-manifest.60a6f406064e62a76f4ac393b87feee8.js",
+    "service-worker.js": "/bac-average-calculator/service-worker.js",
+    "static/css/main.0ffd45cf.chunk.css.map": "/bac-average-calculator/static/css/main.0ffd45cf.chunk.css.map"
   }
 }
