@@ -1,6 +1,6 @@
 {
-  "name": "calc-my-bac",
-  "version": "0.1.0",
+  "name": "calc-bac",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "node-sass": "^4.12.0",
