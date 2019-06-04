@@ -42,7 +42,7 @@ class App extends React.Component {
           <Route exact path="/:subpath" render={() => (
               <Link to="/"><FaArrowRight /></Link>
           )} />
-          <h1>حساب الباك</h1>
+          <h1>حساب معدل الباك</h1>
         </header>
         <main>
           <Route exact path="/" render={() => (
