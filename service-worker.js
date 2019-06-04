@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/bac-average-calculator/precache-manifest.60a6f406064e62a76f4ac393b87feee8.js"
+  "/bac-average-calculator/precache-manifest.0ee02524dc61c770d63e8228eb2e8646.js"
 );
 
 self.addEventListener('message', (event) => {
