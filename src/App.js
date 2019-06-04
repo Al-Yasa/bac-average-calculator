@@ -33,22 +33,22 @@ class App extends React.Component {
             <MainPage optionalSubjects={this.state.optionalSubjects} onChangeSubjects={this.onChangeSubjects} />
           )} />
           <Route path="/math" render={() => (
-            <CalcPage branch="math" optionalSubjects={this.state.optionalSubjects} />
+            <CalcPage branch="math" branchArabic="رياضيات" optionalSubjects={this.state.optionalSubjects} />
           )} />
           <Route path="/science" render={() => (
-            <CalcPage branch="science" optionalSubjects={this.state.optionalSubjects} />
+            <CalcPage branch="science" branchArabic="علوم تجريبية" optionalSubjects={this.state.optionalSubjects} />
           )} />
           <Route path="/literature" render={() => (
-            <CalcPage branch="literature" optionalSubjects={this.state.optionalSubjects} />
+            <CalcPage branch="literature" branchArabic="آداب و فلسفة" optionalSubjects={this.state.optionalSubjects} />
           )} />
           <Route path="/languages" render={() => (
-            <CalcPage branch="languages" optionalSubjects={this.state.optionalSubjects} />
+            <CalcPage branch="languages" branchArabic="لغات أجنبية" optionalSubjects={this.state.optionalSubjects} />
           )} />
           <Route path="/management" render={() => (
-            <CalcPage branch="management" optionalSubjects={this.state.optionalSubjects} />
+            <CalcPage branch="management" branchArabic="تسيير و اقتصاد" optionalSubjects={this.state.optionalSubjects} />
           )} />
           <Route path="/tech" render={() => (
-            <CalcPage branch="tech" optionalSubjects={this.state.optionalSubjects} />
+            <CalcPage branch="tech" branchArabic="تقني رياضي" optionalSubjects={this.state.optionalSubjects} />
           )} />
         </main>
       </div>

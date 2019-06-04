@@ -126,6 +126,7 @@ class CalcPage extends Component {
   render() {
     return (
       <div id="calcPage">
+        <h3>شعبة: <span>{this.props.branchArabic}</span></h3>
         <div className="table">
           <div className="row row-head">
             <div className="col">المادة</div>
