@@ -14,12 +14,9 @@ This application allow you to calculate your BAC average by choosing a branch th
 
 The project emphasizes using React to build a single page application.
 
-![BAC Average Calculator Preview 01](bac_average_calculator_preview_01.jpg "BAC Average Calculator Preview 01")
-
-![BAC Average Calculator Preview 02](bac_average_calculator_preview_02.jpg "BAC Average Calculator Preview 02")
+![BAC Average Calculator Preview 01](bac_average_calculator_preview_01.jpg "BAC Average Calculator Preview 01") ![BAC Average Calculator Preview 02](bac_average_calculator_preview_02.jpg "BAC Average Calculator Preview 02")
 
 ![BAC Average Calculator Preview 03](bac_average_calculator_preview_03.jpg "BAC Average Calculator Preview 03")
-
 
 ### Built With
 
