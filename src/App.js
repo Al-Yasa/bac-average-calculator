@@ -8,14 +8,30 @@ import { FaArrowRight } from 'react-icons/fa';
 class App extends React.Component {
   state = {
     optionalSubjects: {
-      sport: true,
-      amazigh: false
+      amazigh: false,
+      sport: true
+    }
+  }
+
+  componentWillMount() {
+    if (!localStorage.length) {
+      localStorage.setItem('optionalSubjects_amazigh', this.state.optionalSubjects.amazigh);
+      localStorage.setItem('optionalSubjects_sport', this.state.optionalSubjects.sport);
+    } else {
+      let optionalSubjects = {
+        amazigh: localStorage.getItem('optionalSubjects_amazigh') === 'true' ? true : false,
+        sport: localStorage.getItem('optionalSubjects_sport') === 'true' ? true : false
+      };
+      this.setState(state => {
+        state.optionalSubjects = optionalSubjects;
+      });
     }
   }
 
   onChangeSubjects = (subjectName, value) => {
     this.setState(state => {
       state.optionalSubjects[subjectName] = value;
+      localStorage.setItem(`optionalSubjects_${subjectName}`, value);
     });
   }
 

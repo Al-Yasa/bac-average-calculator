@@ -10,8 +10,8 @@ class MainPage extends Component {
   }
 
   componentDidMount() {
-    document.getElementById('sport').checked = this.props.optionalSubjects.sport;
     document.getElementById('amazigh').checked = this.props.optionalSubjects.amazigh;
+    document.getElementById('sport').checked = this.props.optionalSubjects.sport;
   }
 
   handleChange = e => {
