@@ -1,8 +1,8 @@
 {
-  "name": "calculate-bac",
+  "name": "bac-average-calculator",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://al-yasa.github.io/calculate-bac",
+  "homepage": "https://al-yasa.github.io/bac-average-calculator",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.12.0",

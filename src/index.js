@@ -5,6 +5,6 @@ import App from './App'
 import './index.sass'
 
 ReactDOM.render(
-    <BrowserRouter basename="/calculate-bac"><App /></BrowserRouter>,
+    <BrowserRouter basename="/bac-average-calculator"><App /></BrowserRouter>,
     document.getElementById('root')
 )

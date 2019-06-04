@@ -1,68 +1,105 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# BAC Average Calculator (حساب معدل الباك)
 
-## Available Scripts
+This is a project i did on my free time, and it is called **BAC Average Calculator (حساب معدل الباك)**.
 
-In the project directory, you can run:
+Check out this project on [GitHub Pages](https://al-yasa.github.io/bac-average-calculator/ "BAC Average Calculator - Belhenniche Al-Yasa'").
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![BAC Average Calculator](public/favicon.png "BAC Average Calculator")
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+A baccalaureate average calculator app that is based on the Algerian curriculum.
 
-### `npm test`
+This application allow you to calculate your BAC average by choosing a branch then adding your exam marks for each subject, the app will display your average.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project emphasizes using React to build a single page application.
 
-### `npm run build`
+![BAC Average Calculator Preview 01](bac_average_calculator_preview_01.jpg "BAC Average Calculator Preview 01")
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![BAC Average Calculator Preview 02](bac_average_calculator_preview_02.jpg "BAC Average Calculator Preview 02")
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+![BAC Average Calculator Preview 03](bac_average_calculator_preview_03.jpg "BAC Average Calculator Preview 03")
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Javascript (Programming Language)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    - [React](https://reactjs.org/) (A JavaScript library for building UI)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+        - react-dom, react-router, react-router-dom, react-icons, react-scripts, prop-types
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [Cmder](https://cmder.net/) (console emulator for Windows)
 
-## Learn More
+    - [create-react-app](https://github.com/facebookincubator/create-react-app) (React project scaffolding manager)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    - [git](https://git-scm.com/downloads) (Version control system)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+        - gh-pages
 
-### Code Splitting
+    - [npm](https://nodejs.org/en/download/) (Javascript package manager)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- [VSCode](https://code.visualstudio.com/) (Free. Open source code editor)
 
-### Analyzing the Bundle Size
+- HTML5/CSS3 (Markup/Styling languages)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+    - node-sass
 
-### Making a Progressive Web App
+### What You're Getting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+```bash
+├── CONTRIBUTING.md
+├── README.md - This file.
+├── package.json # npm package manager file. It's unlikely that you'll need to modify this.
+├── public
+│   ├── 404.html # HTML file for fixing github-pages single page application routing.
+│   ├── favicon.ico # App Icon, You may change if you wish.
+│   ├── icon-192.png # App Icon for manifest file.
+│   ├── icon-512.png # App Icon for manifest file.
+│   ├── manifest.json # Meta data for the app.
+│   └── index.html # DO NOT MODIFY
+└── src
+    ├── App.sass # Styles for your app. Feel free to customize this as you desire.
+    ├── App.js # This is the root of your app. Contains static HTML right now.
+    ├── data
+    │   ├── Branches.json # A JSON file containing all the branches
+    ├── components # The building blocks of the app
+    │   ├── CalcPage.js # A class component that holds the calculations logic
+    │   └── MainPage.js # A class component that displays all branches and optional subjects
+    ├── styles # The styling of the app
+    ├── index.sass # Global styles. You probably won't need to change anything here.
+    └── index.js # You should not need to modify this file. It is used for DOM rendering only.
+```
 
-### Advanced Configuration
+## Usage
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+You can run the app locally or online.
 
-### Deployment
+If you want to run online you have to visit this project on [GitHub Pages](https://al-yasa.github.io/bac-average-calculator/ "BAC Average Calculator - Belhenniche Al-Yasa'").
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+If you want to run locally you have to download the app first:
 
-### `npm run build` fails to minify
+### Method 1:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+1. Click on the green `Clone or download` button above.
+
+2. Click on `Download ZIP`.
+
+3. Extract downloaded Zip file.
+
+4. Install all project dependencies with `npm install`.
+
+5. Run server with `npm start`.
+
+6. With your server running, visit the site: `http://localhost:3000`.
+
+### Method 2:
+
+1. If you have git installed you can clone this repo to your desktop by running this command line:
+`git clone https://github.com/Al-Yasa/bac-average-calculator.git`
+
+2. Install all project dependencies with `npm install`.
+
+3. Run server with `npm start`.
+
+4. With your server running, visit the site: `http://localhost:3000`.
