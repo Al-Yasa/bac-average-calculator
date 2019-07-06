@@ -2,7 +2,7 @@
 
 This is a project i did on my free time, and it is called **BAC Average Calculator (حساب معدل الباك)**.
 
-Check out this project on [GitHub Pages](https://al-yasa.github.io/bac-average-calculator/ "BAC Average Calculator - Belhenniche Al-Yasa'").
+Check out this project on [GitHub Pages](https://al-yasa.github.io/bac-average-calculator-react/ "BAC Average Calculator - Belhenniche Al-Yasa'").
 
 ## Warning
 
@@ -82,7 +82,7 @@ The project emphasizes using React to build a single page application.
 
 You can run the app locally or online.
 
-If you want to run online you have to visit this project on [GitHub Pages](https://al-yasa.github.io/bac-average-calculator/ "BAC Average Calculator - Belhenniche Al-Yasa'").
+If you want to run online you have to visit this project on [GitHub Pages](https://al-yasa.github.io/bac-average-calculator-react/ "BAC Average Calculator - Belhenniche Al-Yasa'").
 
 If you want to run locally you have to download the app first:
 
@@ -103,7 +103,7 @@ If you want to run locally you have to download the app first:
 ### Method 2:
 
 1. If you have git installed you can clone this repo to your desktop by running this command line:
-`git clone https://github.com/Al-Yasa/bac-average-calculator.git`
+`git clone https://github.com/Al-Yasa/bac-average-calculator-react.git`
 
 2. Install all project dependencies with `npm install`.
 

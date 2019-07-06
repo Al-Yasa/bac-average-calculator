@@ -2,7 +2,7 @@
   "name": "bac-average-calculator",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://al-yasa.github.io/bac-average-calculator",
+  "homepage": "https://al-yasa.github.io/bac-average-calculator-react",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.12.0",
