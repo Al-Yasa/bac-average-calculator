@@ -4,6 +4,16 @@ This is a project i did on my free time, and it is called **BAC Average Calculat
 
 Check out this project on [GitHub Pages](https://al-yasa.github.io/bac-average-calculator/ "BAC Average Calculator - Belhenniche Al-Yasa'").
 
+## Warning
+
+*This Project is depreciated (old design and bad calculation logic).*
+
+*There is a better and newer version that uses Ionic/Angular to build the app.*
+
+*Checkout the project on [GitHub](https://github.com/Al-Yasa/BAC-Average-Calculator-Ionic-Angular "BAC Average Calculator - Belhenniche Al-Yasa'").*
+
+*You can also download the app on [Play Store](https://play.google.com/store/apps/details?id=com.calculator.average.bac "BAC Average Calculator - Belhenniche Al-Yasa'").*
+
 ## Description
 
 ![BAC Average Calculator](public/favicon.png "BAC Average Calculator")
