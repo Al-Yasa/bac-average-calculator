@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bac-average-calculator/static/css/main.0ffd45cf.chunk.css",
-    "main.js": "/bac-average-calculator/static/js/main.b7f28d21.chunk.js",
-    "main.js.map": "/bac-average-calculator/static/js/main.b7f28d21.chunk.js.map",
-    "runtime~main.js": "/bac-average-calculator/static/js/runtime~main.cb6319bd.js",
-    "runtime~main.js.map": "/bac-average-calculator/static/js/runtime~main.cb6319bd.js.map",
-    "static/js/2.aead6e3e.chunk.js": "/bac-average-calculator/static/js/2.aead6e3e.chunk.js",
-    "static/js/2.aead6e3e.chunk.js.map": "/bac-average-calculator/static/js/2.aead6e3e.chunk.js.map",
-    "index.html": "/bac-average-calculator/index.html",
-    "precache-manifest.0ee02524dc61c770d63e8228eb2e8646.js": "/bac-average-calculator/precache-manifest.0ee02524dc61c770d63e8228eb2e8646.js",
-    "service-worker.js": "/bac-average-calculator/service-worker.js",
-    "static/css/main.0ffd45cf.chunk.css.map": "/bac-average-calculator/static/css/main.0ffd45cf.chunk.css.map"
+    "main.css": "/bac-average-calculator-react/static/css/main.0ee1a347.chunk.css",
+    "main.js": "/bac-average-calculator-react/static/js/main.018b9afb.chunk.js",
+    "main.js.map": "/bac-average-calculator-react/static/js/main.018b9afb.chunk.js.map",
+    "runtime~main.js": "/bac-average-calculator-react/static/js/runtime~main.2bacb643.js",
+    "runtime~main.js.map": "/bac-average-calculator-react/static/js/runtime~main.2bacb643.js.map",
+    "static/js/2.aead6e3e.chunk.js": "/bac-average-calculator-react/static/js/2.aead6e3e.chunk.js",
+    "static/js/2.aead6e3e.chunk.js.map": "/bac-average-calculator-react/static/js/2.aead6e3e.chunk.js.map",
+    "index.html": "/bac-average-calculator-react/index.html",
+    "precache-manifest.65ea8c4fa8d3096ba84932bd54b5acab.js": "/bac-average-calculator-react/precache-manifest.65ea8c4fa8d3096ba84932bd54b5acab.js",
+    "service-worker.js": "/bac-average-calculator-react/service-worker.js",
+    "static/css/main.0ee1a347.chunk.css.map": "/bac-average-calculator-react/static/css/main.0ee1a347.chunk.css.map"
   }
 }
